@@ -1,0 +1,5 @@
+https://medium.com/@bmshamsnahid/automated-testing-with-selenium-webdriver-and-node-js-f99f64720352
+https://marmelab.com/blog/2016/04/19/e2e-testing-with-node-and-es6.html
+
+
+To run specific test file: npm run test .\test\testFile.test.js 
