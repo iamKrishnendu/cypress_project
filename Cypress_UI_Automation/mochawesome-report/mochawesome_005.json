@@ -1,0 +1,134 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2020-01-31T20:56:20.411Z",
+    "end": "2020-01-31T20:56:27.254Z",
+    "duration": 6843,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3bc8cc80-d6a7-45d2-833b-321069ef56c9",
+      "title": "",
+      "fullFile": "cypress\\integration\\Runner\\facebook_login_with_invalid_cred.js",
+      "file": "cypress\\integration\\Runner\\facebook_login_with_invalid_cred.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5208388e-31ff-4540-8550-f01e51fc6590",
+          "title": "To validate un authorized login in facebook",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Search with facebook keyword and click on the Login link",
+              "fullTitle": "To validate un authorized login in facebook Search with facebook keyword and click on the Login link",
+              "timedOut": null,
+              "duration": 2286,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "search_with_facebook_and_click_on_login_link();",
+              "err": {
+                "message": "ReferenceError: user is not defined",
+                "estack": "ReferenceError: user is not defined\n    at Context.<anonymous> (https://www.google.com/__cypress/tests?p=cypress\\integration\\Runner\\facebook_login_with_invalid_cred.js-429:38:17)",
+                "diff": null
+              },
+              "uuid": "a41b4dd5-d36b-4e68-b353-4ce15fed00bb",
+              "parentUUID": "5208388e-31ff-4540-8550-f01e51fc6590",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate facebook logo and then enter credentails to the fields",
+              "fullTitle": "To validate un authorized login in facebook Validate facebook logo and then enter credentails to the fields",
+              "timedOut": null,
+              "duration": 4509,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "enter_unauthorized_username_password_and_login();",
+              "err": {
+                "message": "CypressError: Timed out retrying: Expected to find element: 'a[title='Go to Facebook home']>i>u', but never found it.",
+                "estack": "CypressError: Timed out retrying: Expected to find element: 'a[title='Go to Facebook home']>i>u', but never found it.\n    at Object.cypressErr (https://www.google.com/__cypress/runner/cypress_runner.js:86207:11)\n    at Object.throwErr (https://www.google.com/__cypress/runner/cypress_runner.js:86162:18)\n    at Object.throwErrByPath (https://www.google.com/__cypress/runner/cypress_runner.js:86194:17)\n    at retry (https://www.google.com/__cypress/runner/cypress_runner.js:76849:16)\n    at onFailFn (https://www.google.com/__cypress/runner/cypress_runner.js:65634:16)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:120203:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:118139:31)\n    at Promise._settlePromise (https://www.google.com/__cypress/runner/cypress_runner.js:118196:18)\n    at Promise._settlePromise0 (https://www.google.com/__cypress/runner/cypress_runner.js:118241:10)\n    at Promise._settlePromises (https://www.google.com/__cypress/runner/cypress_runner.js:118316:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://www.google.com/__cypress/runner/cypress_runner.js:114928:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.google.com/__cypress/runner/cypress_runner.js:114938:10)\n    at Async.drainQueues (https://www.google.com/__cypress/runner/cypress_runner.js:114812:14)",
+                "diff": null
+              },
+              "uuid": "088376d8-5c0d-4cd9-bc85-24f5810143c9",
+              "parentUUID": "5208388e-31ff-4540-8550-f01e51fc6590",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "a41b4dd5-d36b-4e68-b353-4ce15fed00bb",
+            "088376d8-5c0d-4cd9-bc85-24f5810143c9"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 6795,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "overwrite": "false",
+        "reportPageTitle": "Automated Test Status",
+        "reportTitle": "Automated Test Reporting Dashboard",
+        "showPassed": "true",
+        "autoOpen": "false",
+        "charts": "true",
+        "code": "false"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

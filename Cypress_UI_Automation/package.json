@@ -1,0 +1,21 @@
+{
+  "name": "cypress_ui_automation",
+  "version": "1.0.0",
+  "description": "This assignment will demonstrate the Test Automation with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open --browser chrome",
+    "cy:run": "cypress run --browser chrome ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krishnendu Halder",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.8.3",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.1.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.15.5"
+  }
+}

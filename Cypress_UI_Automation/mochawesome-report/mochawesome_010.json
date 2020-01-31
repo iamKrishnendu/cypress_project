@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-01-31T21:04:37.559Z",
+    "end": "2020-01-31T21:04:39.684Z",
+    "duration": 2125,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "49ee2744-e99e-4b75-ac33-d394739b7ca6",
+      "title": "",
+      "fullFile": "cypress\\integration\\Runner\\Google_homePage_spec.js",
+      "file": "cypress\\integration\\Runner\\Google_homePage_spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fd859a0b-aea7-4b61-9780-f3d919e88289",
+          "title": "To validate the Home page components of Google",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "User should landing on Google home page",
+              "fullTitle": "To validate the Home page components of Google User should landing on Google home page",
+              "timedOut": null,
+              "duration": 1384,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "navigate_google_homePage_and_check_site_logo();",
+              "err": {},
+              "uuid": "a517318d-ed76-4ec4-9360-031f2ea1a39e",
+              "parentUUID": "fd859a0b-aea7-4b61-9780-f3d919e88289",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Search box should be visible on the page",
+              "fullTitle": "To validate the Home page components of Google Search box should be visible on the page",
+              "timedOut": null,
+              "duration": 72,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "visibility_of_searchBox();",
+              "err": {},
+              "uuid": "740de689-9c36-467f-bb17-3e6178618bdd",
+              "parentUUID": "fd859a0b-aea7-4b61-9780-f3d919e88289",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Searchbo should be editable",
+              "fullTitle": "To validate the Home page components of Google Searchbo should be editable",
+              "timedOut": null,
+              "duration": 510,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "verify_searchBox_is_editable();",
+              "err": {},
+              "uuid": "fd2a52ca-08ed-4293-9212-7ac8fac1f47f",
+              "parentUUID": "fd859a0b-aea7-4b61-9780-f3d919e88289",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Gmail and Image links should be available on the page",
+              "fullTitle": "To validate the Home page components of Google Gmail and Image links should be available on the page",
+              "timedOut": null,
+              "duration": 66,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "verify_links_available_on_the_page();",
+              "err": {},
+              "uuid": "faaa0c51-500d-478a-be1a-4daf2c4a5a38",
+              "parentUUID": "fd859a0b-aea7-4b61-9780-f3d919e88289",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Google search button should be present on the screen",
+              "fullTitle": "To validate the Home page components of Google Google search button should be present on the screen",
+              "timedOut": null,
+              "duration": 28,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "check_the_search_button_isDisplayed();",
+              "err": {},
+              "uuid": "d4f7e8dc-57b6-4a18-8eed-e19b8ce79916",
+              "parentUUID": "fd859a0b-aea7-4b61-9780-f3d919e88289",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a517318d-ed76-4ec4-9360-031f2ea1a39e",
+            "740de689-9c36-467f-bb17-3e6178618bdd",
+            "fd2a52ca-08ed-4293-9212-7ac8fac1f47f",
+            "faaa0c51-500d-478a-be1a-4daf2c4a5a38",
+            "d4f7e8dc-57b6-4a18-8eed-e19b8ce79916"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2060,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "overwrite": "false",
+        "reportPageTitle": "Automated Test Status",
+        "reportTitle": "Automated Test Reporting Dashboard",
+        "showPassed": "true",
+        "autoOpen": "false",
+        "charts": "true",
+        "code": "false"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

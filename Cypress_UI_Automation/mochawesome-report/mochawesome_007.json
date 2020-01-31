@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-01-31T20:57:31.792Z",
+    "end": "2020-01-31T20:57:50.499Z",
+    "duration": 18707,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0688de54-db69-408e-bba8-e25316d4cebc",
+      "title": "",
+      "fullFile": "cypress\\integration\\Runner\\facebook_login_with_invalid_cred.js",
+      "file": "cypress\\integration\\Runner\\facebook_login_with_invalid_cred.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "eb00a649-d8f5-42b2-b736-587d9a78674c",
+          "title": "To validate un authorized login in facebook",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Search with facebook keyword and click on the Login link",
+              "fullTitle": "To validate un authorized login in facebook Search with facebook keyword and click on the Login link",
+              "timedOut": null,
+              "duration": 14140,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "search_with_facebook_and_click_on_login_link();",
+              "err": {},
+              "uuid": "3d111064-5450-4c1c-b347-e7e1cbeb8180",
+              "parentUUID": "eb00a649-d8f5-42b2-b736-587d9a78674c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate facebook logo and then enter credentails to the fields",
+              "fullTitle": "To validate un authorized login in facebook Validate facebook logo and then enter credentails to the fields",
+              "timedOut": null,
+              "duration": 4530,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "enter_unauthorized_username_password_and_login();",
+              "err": {
+                "message": "CypressError: Timed out retrying: Expected to find element: 'a[title='Go to Facebook home']>i>u', but never found it.",
+                "estack": "CypressError: Timed out retrying: Expected to find element: 'a[title='Go to Facebook home']>i>u', but never found it.\n    at Object.cypressErr (https://www.google.com/__cypress/runner/cypress_runner.js:86207:11)\n    at Object.throwErr (https://www.google.com/__cypress/runner/cypress_runner.js:86162:18)\n    at Object.throwErrByPath (https://www.google.com/__cypress/runner/cypress_runner.js:86194:17)\n    at retry (https://www.google.com/__cypress/runner/cypress_runner.js:76849:16)\n    at onFailFn (https://www.google.com/__cypress/runner/cypress_runner.js:65634:16)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:120203:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:118139:31)\n    at Promise._settlePromise (https://www.google.com/__cypress/runner/cypress_runner.js:118196:18)\n    at Promise._settlePromise0 (https://www.google.com/__cypress/runner/cypress_runner.js:118241:10)\n    at Promise._settlePromises (https://www.google.com/__cypress/runner/cypress_runner.js:118316:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://www.google.com/__cypress/runner/cypress_runner.js:114928:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.google.com/__cypress/runner/cypress_runner.js:114938:10)\n    at Async.drainQueues (https://www.google.com/__cypress/runner/cypress_runner.js:114812:14)",
+                "diff": null
+              },
+              "uuid": "77465624-b799-40b4-8fd6-7ed1029768e3",
+              "parentUUID": "eb00a649-d8f5-42b2-b736-587d9a78674c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3d111064-5450-4c1c-b347-e7e1cbeb8180"
+          ],
+          "failures": [
+            "77465624-b799-40b4-8fd6-7ed1029768e3"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 18670,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "overwrite": "false",
+        "reportPageTitle": "Automated Test Status",
+        "reportTitle": "Automated Test Reporting Dashboard",
+        "showPassed": "true",
+        "autoOpen": "false",
+        "charts": "true",
+        "code": "false"
+      },
+      "version": "4.1.0"
+    }
+  }
+}
