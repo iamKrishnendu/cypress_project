@@ -23,40 +23,35 @@ ii.	Google_homePage_spec.js  Positive test
 ├── ...                   #Project Root
 │
 ├── cypress               #cypress folder created by default by Cypress
-                                 
 │   ├── fixtures          # Contains test data files
-                     
 │   |    |-data. json     # External test data source 
-
-     
+|
 │   ├──integration        # Contains spec or test runner files
 │   |     |- Runner
-    |         |--facebook_login_with_invalid_cred.js
-    |         |--Google_homePage_spec.js
-    |
-    ├──plugins            #Contains supportive js file
-    |     |- index.js
-    |
-    ├──screenshots        #Contains failed test step by default
-    |
-    ├──supports	
-          |- Page_objects # Contains page elements or locators
-               |- facebook_page_elements.js
-               |-HomePage_elements.js
-
-          |- Pages         # Contains files for business flow and logic
-               |-facebook_login_unAuthorized.js
-               |-google_homepage.js
-        
-    ├──videos	            #Contains step navigation vide file if enabled
-
-
-    ├──mochawesome-report   #Contains test reports             
+|   |         |--facebook_login_with_invalid_cred.js
+|   |         |--Google_homePage_spec.js
+|   |
+|   ├──plugins            #Contains supportive js file
+|   |     |- index.js
+|   |
+|   ├──screenshots        #Contains failed test step by default
+|   |
+|   ├──supports	
+|   |    |- Page_objects # Contains page elements or locators
+|   |    |      |- facebook_page_elements.js
+|   |    |      |-HomePage_elements.js
+|   |    |
+|   |    |- Pages                   # Contains files for business flow and logic
+|   |         |-facebook_login_unAuthorized.js
+|   |         |-google_homepage.js
+|   |     
+|   ├──videos	                   #Contains step navigation vide file if enabled
+|   ├──mochawesome-report          #Contains test reports             
 │          
 │
 │
-├── cypress.json            #Contains CLI commands and npm options    
-├── package.json            #Contains all dependencies
-├── …
+├── cypress.json                  #Contains CLI commands and npm options    
+├── package.json                  #Contains all dependencies
+├── ...
 
 
