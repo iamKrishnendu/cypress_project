@@ -6,20 +6,21 @@ For more details on cypress setup and it’s features please go through the belo
 https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell
 
 
-#Agenda:   In this article I will explain an automated test procedure in google search homepage with cypress and it’s features.
-#Test Flow:     
+## Agenda:   
+In this article I will explain an automated test procedure in google search homepage with cypress and it’s features.
+## Test Flow:     
 The project contains two test files. The base site URL where we will perform execution is https://www.google.com
 	
 
 i.	facebook_login_with_invalid_cred.js   Negative test to demonstrate the failed step analysis
 ii.	Google_homePage_spec.js  Positive test 
 	
-#Test Flow Explanation: 
+## Test Flow Explanation: 
 1.	The first Test will open google.com homepage and search for the keyword ‘facebook’ and click on search button, once results will appear then script till try to click on signIN link from the result (This particular step will fail)
 2.	The second test will landing on google.com homepage, then it will verify various components available on the page like: google logo on the page, searchbox, gmail and images link on the page.
 
-#Project Folder Structure:
-
+## Project Folder Structure:
+```
 ├── ...                   #Project Root
 │
 ├── cypress               #cypress folder created by default by Cypress
@@ -53,5 +54,5 @@ ii.	Google_homePage_spec.js  Positive test
 ├── cypress.json                  #Contains CLI commands and npm options    
 ├── package.json                  #Contains all dependencies
 ├── ...
-
+```
 
