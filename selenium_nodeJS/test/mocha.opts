@@ -1,5 +1,0 @@
---ui bdd
---recursive 
---reporter mochawesome
---reporter-options overwrite=false,reportPageTitle=Automated\ Test\ Status,reportTitle=Automated\ Test\ Reporting\ Dashboard,showPassed=true,autoOpen=false,charts=true,code=false
---reporter-options reportFilename=Automated_Test_Report_,timestamp
