@@ -1,6 +1,8 @@
 # Automated Testing with Cypress
 
-Introduction with Cypress:  Cypress is a front end or UI testing tool. It can be used in all major browsers like chrome, edge, Firefox, electron etc. Cypress majorly supports JavaScript for automates test script design. The support of chai assertion libraries and Mocha framework is in built with cypress. Cypress has it’s own test runner which is very useful for test execution and debugging but apart from that user can control the execution from CLI as well.
+## Introduction with Cypress:  
+Cypress is a front end or UI testing tool. It can be used in all major browsers like chrome, edge, Firefox, electron etc. Cypress majorly supports JavaScript to automate test script design. The support of chai and Should assertion libraries is in built with cypress.
+It allows BDD and TDD approaches. Cypress has it’s own test runner which is very useful for test execution and debugging but apart from that user can control the execution from CLI as well.
 
 For more details on cypress setup and it’s features please go through the below documentation link.
 https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell
@@ -12,8 +14,8 @@ In this article I will explain an automated test procedure in google search home
 The project contains two test files. The base site URL where we will perform execution is https://www.google.com
 	
 
-i.	facebook_login_with_invalid_cred.js   Negative test to demonstrate the failed step analysis
-ii.	Google_homePage_spec.js  Positive test 
+   - facebook_login_with_invalid_cred.js -- Negative test to demonstrate the failed step analysis
+   - Google_homePage_spec.js -- Positive test 
 	
 ## Test Flow Explanation: 
 1.	The first Test will open google.com homepage and search for the keyword ‘facebook’ and click on search button, once results will appear then script till try to click on signIN link from the result (This particular step will fail)
@@ -55,4 +57,8 @@ ii.	Google_homePage_spec.js  Positive test
 ├── package.json                  #Contains all dependencies
 ├── ...
 ```
-
+## Install Project Dependencies:
+ To install all required project dependencies run ```npm install ``` command from node command prompt
+ 
+## Start Execution
+  Once all dependencies are installed into the system run ```npm run cy:run``` command from node command prompt to start execution
