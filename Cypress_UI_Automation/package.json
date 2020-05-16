@@ -8,12 +8,17 @@
     "cy:run": "cypress run --browser chrome ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamKrishnendu/cypress_project.git"
+  },
   "author": "Krishnendu Halder",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^3.8.3",
     "mocha": "^5.2.0",
-    "mochawesome": "^4.1.0"
+    "mochawesome": "^4.1.0",
+    "minimist": ">=1.2.3"
   },
   "dependencies": {
     "xlsx": "^0.15.5"

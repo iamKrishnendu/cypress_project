@@ -10,7 +10,7 @@ const search_button = homePageObjects.search_button;
 let navigate_google_homePage_and_check_site_logo =  ()=>{
     
     cy.get(logo)
-      .should("have.attr","alt","Google");
+      .scrollIntoView()
 }
 
 let visibility_of_searchBox =  ()=>{
