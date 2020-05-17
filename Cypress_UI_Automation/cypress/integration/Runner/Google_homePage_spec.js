@@ -1,4 +1,4 @@
-//const { describe, it, after, before } = require("mocha");
+
 
 const {navigate_google_homePage_and_check_site_logo,visibility_of_searchBox,verify_searchBox_is_editable,
     verify_links_available_on_the_page,check_the_search_button_isDisplayed} = require("../../support/Pages/google_homepage");
@@ -25,7 +25,9 @@ describe("To validate the Home page components of Google",function(){
         check_the_search_button_isDisplayed();
     })
     
-    
+    after(function(){
+        console.log('Execution is completed')
+    })
 })
 
 
